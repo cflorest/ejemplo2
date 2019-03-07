@@ -1,3 +1,6 @@
+<?php 
+include 'Operaciones.php';
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -10,6 +13,10 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        <?php
+        include 'html.php';
+        
+        ?>
         Texto sin programacion
         <br>
         <pre>
