@@ -19,6 +19,26 @@ and open the template in the editor.
         echo 'Hola '.$saludo;
         
         ?>
+
+<?php
+$meses["Enero"]="Verano";
+$meses["Febrero"]="Verano";
+$meses["Marzo"]="Verano/Otoño";
+$meses["Abril"]="Otoño";
+$meses["Mayo"]="Otoño/Invierno";
+$meses["Junio"]="Invierno";
+$meses["Julio"]="Invierno";
+$meses["Agosto"]="Invierno/Primavera";
+$meses["Septiembre"]="Primavera";
+$meses["Octubre"]="Primavera/Verano";
+$meses["Noviembre"]="Verano";
+$meses["Diciembre"]="Verano";
+
+foreach ($meses as $temp) {
+    echo "La temporada de \$meses: $temp.\n";
+}
+
+?>
         <br>
         <?php
          var_dump($_SERVER);
