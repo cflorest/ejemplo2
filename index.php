@@ -35,7 +35,7 @@ $meses["Noviembre"]="Verano";
 $meses["Diciembre"]="Verano";
 
 foreach ($meses as $temp) {
-    echo "La temporada de \$meses: $temp.\n";
+    echo "La temporada de $temp.\n";
 }
 
 ?>
