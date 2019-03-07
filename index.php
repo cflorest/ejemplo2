@@ -34,6 +34,7 @@ $meses["Octubre"]="Primavera/Verano";
 $meses["Noviembre"]="Verano";
 $meses["Diciembre"]="Verano";
 
+
 foreach ($meses as $temp) {
     echo "La temporada de $temp.\n";
 }
